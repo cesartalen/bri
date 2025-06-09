@@ -1,0 +1,14 @@
+[package]
+name = "bri"
+version = "0.1.0"
+edition = "2021"
+description = "A simple cli tool to adjust monitor brightness using DDC"
+authors = ["cesartalen"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/cesartalen/bri"
+readme = "README.md"
+keywords = ["monitor", "brightness", "ddc", "display", "cli"]
+categories = ["command-line-utilities", "hardware-support"]
+
+[dependencies]
+ddc-hi = "0.4.1"
